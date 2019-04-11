@@ -47,4 +47,5 @@ lowPM.loci<-which(!isPoly(acro.genind,by="allele", thres=20/(2*length(indNames(a
 save(acro.genind, file="CLEANDATA/tenuis/acroten.genind.RData")
 #save(acro.genind, file="CLEANDATA/millepora/acromill.genind.RData")
 
+
 rm(list=ls())
