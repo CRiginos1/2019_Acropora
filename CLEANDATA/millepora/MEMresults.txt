@@ -1,0 +1,36 @@
+*Binary Delaunay* 
+
+AICc for the null model: -18.4719836002539 
+
+Best spatial model:
+          AICc NbVar
+MEM8 -17.39144     1
+Adj R2 best spatial:  0.01815689 *Weighted Delaunay* a)Power function weightings: 
+
+AICc for the null model: -18.4719836002539 
+
+Best spatial model:
+  y     dmax      AICc NbVar
+1 1 1380.541 -17.57348     1
+Adj R2 best spatial:  0.02751897 b)Custom log weighting: 
+
+AICc for the null model: -18.4719836002539 
+
+Best spatial model:
+         dmax      AICc NbVar
+MEM7 1380.541 -17.71797     1
+Adj R2 best spatial:  0.0348863 *PCNM* a)Power function weightings: 
+
+AICc for the null model: -18.4719836002539 
+
+Best spatial model:
+  y     dmax      AICc NbVar
+2 2 287.4197 -18.47767     1
+Adj R2 best spatial:  0.07271437 b)Custom log weighting: 
+
+AICc for the null model: -18.4719836002539 
+
+Best spatial model:
+          dmax     AICc NbVar
+MEM10 287.4197 -18.8177     1
+Adj R2 best spatial:  0.08916185 *Custom saturated* (d = 4 is the log function) d =  1 numb variables:  1 AICc =  -18.2670768207331 Adj R2 best spatial:  0.06237947 d =  2 numb variables:  16 AICc =  -77.3642310917794 Adj R2 best spatial:  1 d =  3 numb variables:  1 AICc =  -18.2555258731224 Adj R2 best spatial:  0.06180927 d =  4 numb variables:  1 AICc =  -18.4829268231872 Adj R2 best spatial:  0.07297105 AICc for the null model:  -18.47198 
