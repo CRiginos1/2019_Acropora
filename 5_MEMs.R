@@ -29,7 +29,6 @@ anova(rda(acro.chi, data.xy), step=1000)  # Result: significant trend, 5% and 10
 response.matrix.det<- resid(lm(as.matrix(acro.chi) ~ ., data=data.xy))  #detrended data - use for MEMs but not AEM
 
 
-
 ##MEMS
 ##GOAL/STRATEGY: take various distance matrices and undertake MEM analysis (see Borcard Pg 265)
 #1- for each distance model, select MEM variables to retain based on a) lowest AICc, b) forward selection
